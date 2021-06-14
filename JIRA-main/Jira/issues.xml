@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<issueEntity>
+    <summary>Not able to clone git repos</summary>
+    <key>SRCTREEWIN-13550</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1743120</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>While clone / pull / fetch getting below error:
+
+!image-2021-03-31-09-44-20-968.png!</description>
+    <reporterName>Krishna.Konduru</reporterName>
+    <creationDate>2021-03-31</creationDate>
+</issueEntity>
+
+<issueEntity>
+    <summary>ssl cerficate</summary>
+    <key>SRCTREEWIN-13549</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1742555</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>Hello, 
+
+we have this issue when pulling data from source tree and error message is below.
+
+git -c diff.mnemonicprefix=false -c core.quotepath=false --no-optional-locks fetch origin
+fatal: unable to access 'https://progit.movilizer.com/professional-services/atlas-copco-mam2-forms/': SSL certificate problem: unable to get local issuer certificate
+Completed with errors, see above.
+
+Please see attached picture for more details.
+
+Thank you
+
+Jan
+
+!image-2021-03-30-13-10-02-735.png!
+
+ 
+
+ </description>
+    <reporterName>Jan Praskac</reporterName>
+    <creationDate>2021-03-30</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Cannot open a terminal when system git is enabled</summary>
+    <key>SRCTREEWIN-13547</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1741794</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>Terminal cannot be opened when system git is enabled in v3.3.4 or later. It was available in v3.2.6
+
+Nothing happens when I press the terminal button in the upper right corner.
+
+ 
+
+sourcetree.log
+
+ -------------
+
+SourceTree.Repo.RepoHandlerGitOld] [Log] - UNable to bash start process for 'C:\Users\&lt;project pass&gt;'
+
+--------------
+ </description>
+    <reporterName>icechappy</reporterName>
+    <creationDate>2021-03-27</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Remote branch name resets to empty string when select for pushing the first time</summary>
+    <key>SRCTREEWIN-13546</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1740957</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>Every time I push a new branch for the first time and enable the checkbox for according branch I can see the branchname for the remote branch to be created is correctly set.
+
+But when I then hit push I get an error
+
+{{The Remote branch '' (local branch = 'EXAMPLE') is invalid.}}
+
+because the remote branch name was reset to an empty string.
+
+See [these screenshots|[https://imgur.com/a/slVzVhb]|https://imgur.com/a/slVzVhb]
+
+
+
+The current workaround is enable - disable - enable the checkbox for this branch before hitting push.
+
+
+*NOTE: My SourceTree version is 3.3.4 but this version isn't available for selection below ....*</description>
+    <reporterName>j_poenisch</reporterName>
+    <creationDate>2021-03-25</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Application crashes when...</summary>
+    <key>SRCTREEWIN-13538</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1738272</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>Version: ??? - 3.4.3
+
+Windows 10 Pro
+
+Have been using Sourcetree for years now.
+
+I don't remember what version I was using when this issue first started but I just upgraded to 3.4.3 and it is still happening.
+
+Recently when every I click on New tab &gt; Remote it crashes. I have two Remote repositories: Bitbucket (default/first) and GitHub. Show Organization Repos is checked. It appears to be cashing when trying to query/populate the repo drop down.
+
+ 
+
+ 
+
+ 
+
+ </description>
+    <reporterName>TristenFielding</reporterName>
+    <creationDate>2021-03-18</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Sourcetree crashes after switching to Remote tab</summary>
+    <key>SRCTREEWIN-13152</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1600734</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>Hello,
+
+when I switch to remote tab (remote repositories) then Sourcetree suddenly crashes. There are two log entries that occures when the crash happens. The entries are: 
+
+ERROR [2020-07-28 07:33:45,605] [1] [SourceTree.Model.Repository] [Log] - Repository: [] does not exist
+ERROR [2020-07-28 07:33:56,343] [1] [SourceTree.Exceptions.RemoteHostException] [Log] - Failed to list teams for user [olafvolafka]
+
+Does anyone have the same problem? Or does anyone have solution to this? 
+
+ </description>
+    <reporterName>Lukáš Kratochvíl</reporterName>
+    <creationDate>2020-07-28</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Can't Resolve Using Mine</summary>
+    <key>SRCTREEWIN-2366</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/364556</uri>
+    <type>Bug</type>
+    <priority>Medium</priority>
+    <description>I merged a branch into my current branch, and had a number of merge conflicts.  I want to resolve a heap of them by selecting them and right click and select Resolve Conflicts/Resolve Using 'Mine' option.
+I get the normal confirmation prompt and when I press OK I get an error message saying: 
+"Could not update one or more files, please check that no other application is locking your files."
+Restarted my PC and opened on Source Tree and tried again, and still get the same error.  These are just html files, that are not being used by anything.
+
+How can I resolved this and get on with my merge so I can use my working environment again?
+
+Regards,
+
+Scott</description>
+    <reporterName>Tim Sargent Billing</reporterName>
+    <creationDate>2014-10-09</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Merge conflict resolve doesn't work when I deleted files.</summary>
+    <key>SRCTREEWIN-2059</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/353540</uri>
+    <type>Bug</type>
+    <priority>Medium</priority>
+    <description>(actually using 1.6.3, but Jira doesn't know that version yet).
+
+I have two branches.
+My current branch deleted a bunch of files.
+A remote branch (origin/develop) altered files after the branch point.
+
+Merge in branch origin/develop.
+There correctly are a number of files in the list of conflicts.
+
+I select all files and select the "Resolve Conflict-&gt;resolve using mine" option from the context menu.
+
+I get "Could not update one or more files, please check that no other application is locking your files."
+
+I expected that sourcetree marked the files deleted and resolved.</description>
+    <reporterName>Zander infront</reporterName>
+    <creationDate>2014-08-25</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Interactive rebase not starts if rebasing on same commit</summary>
+    <key>SRCTREE-7631</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1742002</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>Sometimes Interactive rebase window not opens if I rebasing on current parent commit.</description>
+    <reporterName>Vasiliy Anisimov</reporterName>
+    <creationDate>2021-03-29</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>YAML configuration should be used when creating the dbconfig.xml.</summary>
+    <key>SCALE-19</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1557977</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Problem Definition
+
+Currently, if you have a YAML configuration within docker to create a Jira instance and have MySQL and the following settings.
+{code:java}
+ALT_DB_VALIDATIONQUERYTIMEOUT: 3
+{code}
+h3. Suggested Solution
+
+Ideally, all the configuration within the YAML should be transferred over to the dbconfig.xml where they match up like the validation-query-timeout.
+h3. Sample YAML
+{code:java}
+- name: (Jira_podName)        
+image: atlassian/jira-software:#.#.#-jdk11        
+env:      
+- name: ATL_JDBC_USER
+value: (jira_username)
+- name: ATL_JDBC_PASSWORD
+value: (password)
+- name: ATL_DB_DRIVER          
+value: com.mysql.jdbc.Driver        
+- name: ATL_DB_TYPE          
+value: mysql        
+- name: ATL_DB_MINEVICTABLEIDLETIMEMILLIS         
+value: "60000"        
+- name: ATL_DB_VALIDATIONQUERYTIMEOUT          
+value: "3"
+{code}</description>
+    <reporterName>Eric Storch</reporterName>
+    <creationDate>2020-05-30</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Timestamp in the new issue view doesn't represent the original upload date for an attachment</summary>
+    <key>MIG-567</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1741766</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+When you do a Jira site import the timestamp for attachments showing in the issue view, represents the date when you perform the migration, however, if you switch to the list view you can see the original date when the attachment was uploaded to the issue.
+
+
+h3. Steps to Reproduce
+
+# Create a backup server or Cloud.
+# Perform a Jira site import
+
+h3. Expected Results
+
+The timestamp in both views would represent the date when that attachment was first uploaded to the issue
+
+h3. Actual Results
+
+*Regular issue view:*
+
+ !Screen Shot 2021-03-26 at 15.30.41.png|thumbnail! 
+
+*List view for attachments:*
+
+ !Screen Shot 2021-03-26 at 15.30.32.png|thumbnail! 
+
+
+h3. Workaround
+
+Currently there is no known workaround for this behavior. A workaround will be added here when available</description>
+    <reporterName>Daniel Brito [Atlassian]</reporterName>
+    <creationDate>2021-03-26</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Issue status duplication (To Do) leading to config drift and migration failure.</summary>
+    <key>MIG-560</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1739550</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Issue status duplication due to server side configuration change. This leads to migration failures.
+h3. Steps to Reproduce
+ # By default the issue status on the server, 'To Do', is mapped to the category 'To Do'. (Status Category number 2).
+ # On cloud the status, 'To Do', doesn't exist by default.
+ # I migrate a project for the first time to the cloud instance and this leads to creation of the issue status 'To Do' on the cloud [To Do ----&gt; To Do].
+ # On the server, I will change the issue status category of 'To Do' ---&gt; 'In Progress'.
+ # I will perform a migration of another project and this creates a duplicate for the status, 'To Do(migrated)'.
+ # Irrespective of the creation of duplicate status, the migration still fails with similar error below.
+
+{panel}
+2021-03-22 12:28:28.053 ERROR MACS project-import We couldn't import Issue MACS-1. Reason: NullPointerException: There is no step in workflow [Software Simplified Workflow for Project MACS] linked to status [To Do (migrated)]. This caused 4 other items to fail.
+{panel}
+h3. Expected Results
+
+Not to create the duplication and synchronise with settings on the server.
+h3. Actual Results
+
+!Screenshot 2021-03-22 at 7.01.31 PM.png|width=616,height=49!
+{panel}
+2021-03-22 12:28:28.053 ERROR MACS project-import We couldn't import Issue MACS-1. Reason: NullPointerException: There is no step in workflow [Software Simplified Workflow for Project MACS] linked to status [To Do (migrated)]. This caused 4 other items to fail.
+{panel}
+h3. Workaround
+
+Not known</description>
+    <reporterName>Sarath Padarthi</reporterName>
+    <creationDate>2021-03-22</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Jira Cloud Migration Assistant creates Done status in other language in cloud if using non-English as default in server</summary>
+    <key>MIG-559</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1739142</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Jira Cloud Migration Assistant creates Done status in other language in cloud if using non-English as default in server.
+h3. Steps to Reproduce
+ # Change your Jira system default language, for example, Japanese. The status remains same if you looking at status list screen.
+ # Not related to if you choose English/Japanese profile. If you use a Japanese profile, the The status should be translated to Japanese(完了). However, if you edit the status, you can see it is still Done(or look at in DB, Done status was not changed).
+ # Do a migration using JCMA
+
+h3. Expected Results
+
+It should be migrate to Done in cloud.
+h3. Actual Results
+
+It is migrated to 完了 (Done in Japanese) in cloud. If your system already has Done status, you may see two of them, in Japanese and English respectively.
+h3. Workaround
+
+Whichever below should work
+ * Change default language to English during migration
+  </description>
+    <reporterName>Rick Li</reporterName>
+    <creationDate>2021-03-22</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>In the detail view of CCMA the sort button on top of the columns is not working</summary>
+    <key>MIG-558</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1738805</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+When you are using CCMA to migrate spaces to Cloud, and you navigate to the detail view of the space migration, you will notice an arrow above the columns, and clicking on it doesn't rearrange the order of the spaces being migrated.
+
+h3. Steps to Reproduce
+
+# Create a plan to migrate spaces to the Cloud
+# Navigate to the detailed view of that plan
+# Try to sort out the columns
+
+h3. Expected Results
+
+Clicking on the button will rearrange the spaces based on the order [A-Z, Z-A] or based on the status [FAILED, COMPLETE].
+
+ !Screen Shot 2021-03-18 at 22.04.25.png|thumbnail! 
+
+h3. Actual Results
+
+Clicking on the arrow doesn't yield any results.
+
+h3. Workaround
+
+No workaround, for now, we already working on a fix for this issue.</description>
+    <reporterName>Daniel Brito [Atlassian]</reporterName>
+    <creationDate>2021-03-20</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Subtask show unsupported messages for sprint field in post migration report when migrating to cloud</summary>
+    <key>MIG-541</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1728365</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Subtask show unsupported messages for sprint field in post migration report after migrating to cloud. It makes customer confusing.
+{code:java}
+Unsupported ABC5OPE Issue ABC5OPE-38 Custom field value The "Sprint" custom field is not supported via migration
+{code}
+h3. Steps to Reproduce
+ * Migrate tickets linking with a Sprint, and the ticket has some subtask.
+
+h3. Expected Results
+
+No error report since sprint it supported by cloud migration, and sprint filed is actually set for those ticket after migration.
+h3. Actual Results
+
+Below message is written into Requires attention_Post-migration report for each subtask.
+{code:java}
+Unsupported	ABC5OPE	Issue	ABC5OPE-38	Custom field value	The "Sprint" custom field is not supported via migration. The value for this issue will not be migrated.	If you require this field value, use a csv import to update the issues post migration. See the 'Adding additional entities with CSV' section in this document: https://confluence.atlassian.com/cloud/what-gets-migrated-with-the-jira-cloud-migration-assistant-993925216.html
+{code}
+h3. Workaround
+
+Ignore the message in post report if the sprint of ticket is set in cloud side.</description>
+    <reporterName>Rick Li</reporterName>
+    <creationDate>2021-03-09</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Enable Jira nested mappings in the App migration platform</summary>
+    <key>MIG-502</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1715660</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Some of the [documented mappings|https://developer.atlassian.com/platform/app-migration/mappings/] are missing.
+h3. Steps to Reproduce
+ # Run a test migration with JCMA
+ # Use the [mappings API|https://developer.atlassian.com/platform/app-migration/rest/api-group-mapping-api/#api-api-connect-v1-mapping-transferid-find-post] to retrieve all Jira mappings
+
+h3. Expected Results
+
+The following mappings can be retrieved
+ * jira/classic:issueStatus
+ * jira/classic:customFieldOption
+ * jira:priority
+ * jira:resolution
+
+h3. Actual Results
+
+Some Jira mappings are missing
+h3. Workaround
+
+There is no workaround
+
+ </description>
+    <reporterName>David Almeida</reporterName>
+    <creationDate>2021-02-10</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Jira Cloud Migration Assistant failed to mapping Issue types when installing Jira Server with non English language</summary>
+    <key>MIG-479</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1708951</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Jira Cloud Migration Assistant failed to mapping Issue types when installing Jira Server with non English language
+h3. Steps to Reproduce
+ # Install Jira with Japanese language
+ !Screen Shot 2021-01-26 at 16.05.14.png|thumbnail!  
+ -- Make sure default issue types generated with Japanese
+ --- バグ: Bug
+ --- エピック: Epic
+ --- ストーリー: Story
+ --- タスク: Task
+ --- サブタスク: Sub-task
+ -- Make sure default language is Japanese: JRASERVER-43539
+ -- User profile language is not related
+ # Create new sample project
+ -- Projects &gt; Create project &gt; Create Sample Data &gt; Scrum software development
+ # Create Epic
+ -- Epic Name: Sample Epic 1
+ -- Summary: Sample Epic 1 Summary
+ # Link some issues to the Epic
+ # Execute Migration using Jira Cloud Migration Assistant
+
+h3. Expected Results
+ - Epic is migrated properly
+ - Default issue types are mapped with cloud default issue types
+
+h3. Actual Results
+ - Epic is empty
+ - "Sample Epic 1" is migrated as a new custom issue type "エピック"
+ - Sub-task is migrated as a new custom issue type "サブタスク"
+
+All other default issue types are migrated as a new custom issue type in cloud.
+
+*Jira Server*
+ !Screen Shot 2021-01-27 at 10.59.52.png|thumbnail! 
+ *Jira Cloud*
+ !Screen Shot 2021-01-27 at 11.00.03.png|thumbnail!
+h3. Workaround
+
+Before execute migration, change Issue types and fields name on server.
+h4. Update Issue Types
+ # Move to _Jira admin &gt; Issues &gt; Issue types_
+ # Click *Edit* and update Issue type Name to English
+ -- バグ -&gt; Bug
+ -- エピック -&gt; Epic
+ -- ストーリー -&gt; Story
+ -- タスク -&gt; Task
+ -- サブタスク -&gt; Sub-task
+
+h4. Update Epic custom fields
+ # [Unlock a locked Jira Software custom field|https://confluence.atlassian.com/jirakb/unlock-a-locked-jira-software-custom-field-779158866.html]
+ # Move to _Jira admin &gt; Issues &gt; Custom fields_
+ # Click *Edit* and update Epic related field name to English
+ -- エピック カラー -&gt; Epic Colour
+ -- エピックス テータス -&gt; Epic Status
+ -- エピック リンク -&gt; Epic Link
+ -- エピック名 -&gt; Epic Name
+ -- ランク -&gt; Rank
+
+h4. Update filters
+
+You need to update filters when rename custom fields or issue types:
+ - JRASERVER-61048: As a jira admin asked to rename a custom field, I want to know which filters contain the custom field, so I know which ones to update
+ - JRASERVER-30467: Renaming a project or issuetype breaks filters saved with the old project or issue type name
+
+h4. Find filter using non-english custom fields/issue types and update JQL.
+
+*Jira Core*
+{code:java|title=Saved Filters}
+select * from searchrequest where reqcontent like '%エピック カラー%';
+select * from searchrequest where reqcontent like '%エピックス テータス%';
+select * from searchrequest where reqcontent like '%エピック名%';
+select * from searchrequest where reqcontent like '%エピック リンク%';
+select * from searchrequest where reqcontent like '%ランク%';
+
+select * from searchrequest where reqcontent ~* 'issuetype.+バグ';
+select * from searchrequest where reqcontent ~* 'issuetype.+エピック';
+select * from searchrequest where reqcontent ~* 'issuetype.+ストーリー';
+select * from searchrequest where reqcontent ~* 'issuetype.+タスク';
+select * from searchrequest where reqcontent ~* 'issuetype.+サブタスク';
+{code}
+*Jira Service Desk*
+{code:java|title=Service Desk Queues}
+select * from "AO_54307E_QUEUE" where 'JQL' ~* 'issuetype.+バグ';
+select * from "AO_54307E_QUEUE" where 'JQL' ~* 'issuetype.+ストーリー';
+select * from "AO_54307E_QUEUE" where 'JQL' ~* 'issuetype.+タスク';
+select * from "AO_54307E_QUEUE" where 'JQL' ~* 'issuetype.+サブタスク';
+{code}
+*Jira Software*
+{code:java|title=Agile Board Swimlanes}
+select * from "AO_60DB71_SWIMLANE" where 'QUERY' like '%エピック カラー%' or 'LONG_QUERY' like '%エピック カラー%';
+select * from "AO_60DB71_SWIMLANE" where 'QUERY' like '%エピックス テータス%' or 'LONG_QUERY' like '%エピックス テータス%';
+select * from "AO_60DB71_SWIMLANE" where 'QUERY' like '%エピック名%' or 'LONG_QUERY' like '%エピック名%';
+select * from "AO_60DB71_SWIMLANE" where 'QUERY' like '%エピック リンク%' or 'LONG_QUERY' like '%エピック リンク%';
+
+select * from "AO_60DB71_SWIMLANE" where 'QUERY' ~* 'issuetype.+バグ' or 'LONG_QUERY' ~* 'issuetype.+バグ';
+select * from "AO_60DB71_SWIMLANE" where 'QUERY' ~* 'issuetype.+エピック' or 'LONG_QUERY' ~* 'issuetype.+エピック';
+select * from "AO_60DB71_SWIMLANE" where 'QUERY' ~* 'issuetype.+ストーリー' or 'LONG_QUERY'  ~* 'issuetype.+ストーリー';
+select * from "AO_60DB71_SWIMLANE" where 'QUERY' ~* 'issuetype.+タスク' or 'LONG_QUERY' ~* 'issuetype.+タスク';
+select * from "AO_60DB71_SWIMLANE" where 'QUERY' ~* 'issuetype.+サブタスク' or 'LONG_QUERY' ~* 'issuetype.+サブタスク';
+{code}
+{code:java|title=Agile Board Quick Filters}
+select * from "AO_60DB71_QUICKFILTER" where 'QUERY' like '%エピック カラー%' or 'LONG_QUERY' like '%エピック カラー%';
+select * from "AO_60DB71_QUICKFILTER" where 'QUERY' like '%エピックス テータス%' or 'LONG_QUERY' like '%エピックス テータス%';
+select * from "AO_60DB71_QUICKFILTER" where 'QUERY' like '%エピック名%' or 'LONG_QUERY' like '%エピック名%';
+select * from "AO_60DB71_QUICKFILTER" where 'QUERY' like '%エピック リンク%' or 'LONG_QUERY' like '%エピック リンク%';
+
+select * from "AO_60DB71_QUICKFILTER" where 'QUERY' ~* 'issuetype.+バグ' or 'LONG_QUERY' ~* 'issuetype.+バグ';
+select * from "AO_60DB71_QUICKFILTER" where 'QUERY' ~* 'issuetype.+エピック' or 'LONG_QUERY' ~* 'issuetype.+エピック';
+select * from "AO_60DB71_QUICKFILTER" where 'QUERY' ~* 'issuetype.+ストーリー' or 'LONG_QUERY'  ~* 'issuetype.+ストーリー';
+select * from "AO_60DB71_QUICKFILTER" where 'QUERY' ~* 'issuetype.+タスク' or 'LONG_QUERY' ~* 'issuetype.+タスク';
+select * from "AO_60DB71_QUICKFILTER" where 'QUERY' ~* 'issuetype.+サブタスク' or 'LONG_QUERY' ~* 'issuetype.+サブタスク';
+{code}
+{code:java|title=Agile Board Card Colors}
+select * from "AO_60DB71_CARDCOLOR" where 'STRATEGY' = 'custom' and 'VAL' like '%エピック カラー%';
+select * from "AO_60DB71_CARDCOLOR" where 'STRATEGY' = 'custom' and 'VAL' like '%エピックス テータス%';
+select * from "AO_60DB71_CARDCOLOR" where 'STRATEGY' = 'custom' and 'VAL' like '%エピック名%';
+select * from "AO_60DB71_CARDCOLOR" where 'STRATEGY' = 'custom' and 'VAL' like '%エピック リンク%';
+
+select * from "AO_60DB71_CARDCOLOR" where 'STRATEGY' = 'custom' and 'VAL' ~* 'issuetype.+バグ';
+select * from "AO_60DB71_CARDCOLOR" where 'STRATEGY' = 'custom' and 'VAL' ~* 'issuetype.+エピック';
+select * from "AO_60DB71_CARDCOLOR" where 'STRATEGY' = 'custom' and 'VAL' ~* 'issuetype.+ストーリー';
+select * from "AO_60DB71_CARDCOLOR" where 'STRATEGY' = 'custom' and 'VAL' ~* 'issuetype.+タスク';
+select * from "AO_60DB71_CARDCOLOR" where 'STRATEGY' = 'custom' and 'VAL' ~* 'issuetype.+サブタスク';
+{code}
+
+h4. After update all JQL, please check with below SQL:
+{code}select * from ISSUETYPE;
+select * from CUSTOMFIELDOPTION;
+select * from "AO_60DB71_SWIMLANE";
+select * from "AO_60DB71_QUICKFILTER";
+select * from SEARCHREQUEST;{code}</description>
+    <reporterName>T. Suzuki</reporterName>
+    <creationDate>2021-01-27</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Import fails if JSON file is bigger than around 7.8 MB</summary>
+    <key>MIG-402</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1618613</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+You can control the max file size for JSON imports by modifying the *Attachments* settings, as shown below in the file picker section:
+ !Screen Shot 2020-08-24 at 09.59.52.png|thumbnail! 
+
+Currently, even though the JSON file's size is under the acceptable size as it was configured, Jira won't proceed with the upload, showing an error message if the file is bigger than around 7.8 MB:
+ !error.png|thumbnail! 
+
+*"Cannot attach file &lt;file_name.json&gt;: You do not have permission to attach a file to the issue."*
+
+h3. Steps to Reproduce
+
+* Set the maximum attachment size to more than 10MB;
+* Create a JSON file with size at 8MB or more (as long as it is smaller than what you have set as the maximum size);
+* Try importing the file via the JSON external system import (https://YOUR_SITE.atlassian.net/secure/admin/JsonSetupPage!default.jspa?externalSystem=com.atlassian.jira.plugins.jim-plugin%3AjsonImporter)
+
+h3. Expected Results
+
+Jira will upload the file if it is smaller than the max size that was configured in the *Attachments* section.
+
+h3. Actual Results
+
+Jira fails to upload the file, presenting an error message.
+
+h3. Workaround
+
+Reduce the size of the file to 7.6MB or lower.</description>
+    <reporterName>Leonardo De Almeida</reporterName>
+    <creationDate>2020-08-24</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>It is possible to create options in the Epic status field via CSV import</summary>
+    <key>MIG-401</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1438700</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+The Epic status field is a locked field, and it is used to control whether an Epic has been completed or not.
+
+When an Epic is completed, it is removed from the Epic panel in the backlog of a board.
+
+Currently, it is possible to create additional values in that field via CSV.
+
+There are some problems that come with that:
+* When you mark an Epic as Done in the Epic panel, it will set the most recent value that was added to the field instead of *Done*;
+** You can bulk update the Epic status of Epic(s), but that may be misleading for users as they will set the Epics to *Done*, but the Epic will remain in the Epic panel since now the Epics will be considered as done only when they have the new value set;
+** Users will not be able to remove those values from the field because it is locked.
+
+
+h3. Steps to Reproduce
+
+* Prepare a CSV file containing information from an existing Epic: Key, Summary, and Epic status. Leave the Summary column empty:
+ !Screen Shot 2019-11-07 at 12.34.54.png|thumbnail! 
+* Import that file via the *External System Import* section;
+* You can perform an advanced search, and see the Epic status value in that Epic;
+* Mark an Epic as Done in the Epic panel of a board, and check that the value set is the new one that was created;
+* If you bulk update the Epic status of Epics to Done, they will remain in the Epic panel.
+
+h3. Expected Results
+
+There should not be an option to map the *Epic status* field during the CSV import.
+
+h3. Actual Results
+
+You can import values into the *Epic status* field.
+
+h3. Workaround
+
+If you run into a problem with new values in the Epic status field, contact the support.</description>
+    <reporterName>Leonardo De Almeida</reporterName>
+    <creationDate>2019-11-07</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>CSV import do not create line break for text field when user tick the Map field value option</summary>
+    <key>MIG-389</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/727345</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>{panel:bgColor=#e7f4fa}
+  *NOTE:* This bug report is for *JIRA Cloud*. Using *JIRA Server*? [See the corresponding bug report|http://jira.atlassian.com/browse/JRASERVER-61755].
+  {panel}
+
+h3. Description
+Customer have a CSV file and contains a description filed. The value of the description file is formatted to have line break between lines. When customer import the CSV file and tick the Map field value option, JIRA will remove the line break between lines and import. 
+
+h3. Step to reproduce
+# Create a CSV file and add a description column.
+# Enter multiple sentence and line break between the sentence for description field
+!image-2016-07-01-20-51-47-221.png|thumbnail! 
+# Login to JIRA
+# Go to External Import System
+# Upload the CSV file
+# Proceed to Map fields page
+# Tick *Map field value* for description field and click next
+!image-2016-07-01-20-51-09-513.png|thumbnail! 
+# JIRA show the description value without any space between lines
+!image-2016-07-01-20-50-47-426.png|thumbnail!
+# Click Begin Import
+# Check the imported issue and found out the line break between sentence is removed.
+!image-2016-07-01-20-52-39-458.png|thumbnail! 
+ 
+
+h3. Expected Result
+JIRA should not remove the line breaks and space between paragraph and sentences when import.
+!image-2016-07-01-20-53-00-490.png|thumbnail! 
+
+h3. Workaround
+Do not tick the *Map field value* option in Map value page</description>
+    <reporterName>Lipkent Ng</reporterName>
+    <creationDate>2016-07-01</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>CSV Import will automatically include user to the Developers Role whether it is exist or not</summary>
+    <key>MIG-384</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/968013</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>*Steps to Reproduce*:
+ # Delete the Developers Role from JIRA.
+ # Confirm to delete the role when being reminded.
+ # The permission scheme will remove Developers role from the permissions.
+ # Create a Test Project.
+ # Navigate to _JIRA Administration &gt; System &gt; External System Import_ and choose CSV Import.
+ # Import the [^AtlassianTestCSV (1).csv] and choose the previous Test project as the target project.
+ # Finish the Import.
+
+*Expected Result*:
+The issue is imported without any problem and the assignee field will used what have been specified in the CSV file.
+
+*Actual Result*:
+Same as the expected result above, but will be creating the Developers Role in the process and included those users inside.
+
+*Notes*:
+While the user who are assigned to those issue will stays even without having _"Assignable User"_ permission, the user would be included in the Developers Role which also does not have the permission.
+
+This should not be a problem if there is only several user on the CSV file, but if importing hundred of issues with unique users could lead to a problem where it would not possible to access Project People/Roles due to amount of users in that role.
+
+*Workaround* 
+
+The issue only replicates on CSV importer via the External System Import. Use the [non-admin CSV importer|https://confluence.atlassian.com/jiracorecloud/creating-issues-using-the-csv-importer-765593817.html] in the Jira search page.
+
+ !import.png|thumbnail! </description>
+    <reporterName>Fahd</reporterName>
+    <creationDate>2018-05-03</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Import from CSV fails with no clear message if there are validators</summary>
+    <key>MIG-364</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1317942</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+When doing a CSV import (both via external system import, and bulk create issues option), the validation is successful if there is a validator in the *Create* transition, but the actual import is failing with no clear message.
+
+h3. Steps to Reproduce
+# Add a "Field Required Validator" to the "Create" transition in a workflow;
+# Import from CSV with the required field(s) not present;
+# Run the import.
+
+h3. Expected Results
+
+The import does not occur, but a message stating the reason would be displayed.
+
+h3. Actual Results
+
+Import fails without any clear error message:
+
+Non-admin import:
+{noformat}2019-08-26 08:36:06,087 INFO - Importer started!
+2019-08-26 08:36:06,104 INFO - Engine is running in Import mode
+2019-08-26 08:36:06,365 INFO - All issues will be imported to project: TEST (TEST)
+2019-08-26 08:36:06,396 INFO - Creating issue: [externalId='autoid--4894869324873235288', summary='Test issue']
+2019-08-26 08:36:06,413 INFO - Issue does not have issue type selected, the affected issues will be created with default issue type [Story]
+2019-08-26 08:36:06,496 ERROR - Fatal error during import:{noformat}
+
+External system import:
+{noformat}
+Error importing issue [externalId='autoid--7059959405534748340', summary='Test']: Unable to create issue: Test
+{noformat}
+
+h3. Workaround
+
+Test out the create issue manually via the web interface. Populate the required fields (with asterisk) and leave the rest as blank. If the issue creation fails, check for any validator that needs to be handled in the CSV import.
+
+Make sure that the validators in workflows in the project do not conflict with the test data. Disable the validators for the import if necessary, or add the required fields with values to your CSV file.</description>
+    <reporterName>Andrey Patyuchenko</reporterName>
+    <creationDate>2019-08-26</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Migrating the Jira site to another hosting location resets the "default user time zone" parameter to UTC</summary>
+    <key>MIG-337</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1601900</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+When a Jira site is migrated to another hosting location, the _default user time zone_ parameter gets reset to UTC
+h3. Steps to Reproduce
+ # Change the _default user time zone_ parameter to something else than UTC
+ # Migrate the site to a different hosting location
+
+h3. Expected Results
+The _default user time zone_ parameter remains the same
+
+h3. Actual Results
+The _default user parameter_ gets reset to UTC
+
+h3. Workaround
+Change the parameter back to the desired value after the migration</description>
+    <reporterName>Claudiu Lionte</reporterName>
+    <creationDate>2020-07-29</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Jira Cloud to Server migrations not working with the new Wiki User Mentions. </summary>
+    <key>MIG-322</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1184379</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Summary 
+After an import from a cloud backup, Jira Issues in Server show AAIDs in comments instead of usernames. 
+
+h3. Steps to Reproduce
+# On a Cloud site with the new wiki user mentions enabled. 
+# Access a ticket
+# Change to the old issue view
+# Add a new comment and mention another user. 
+# You will see the AAID of the user in the markup
+# Create a backup for Server 
+# Import this backup to Jira Server 
+
+h3. Expected Results
+# The backup is imported successfully and Jira Server can correctly render the data. 
+
+h3. Actual Results
+# Jira Server cannot understand the markup with AAIDs 
+
+h3. Workaround
+Any comments in the new issue view continue to work fine when imported in Server. 
+If possible re-add the comments on the tickets in the new issue view and then import to Server. </description>
+    <reporterName>Vik</reporterName>
+    <creationDate>2019-06-05</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>All statuses are migrated with JCMA</summary>
+    <key>MIG-278</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1659356</uri>
+    <type>Bug</type>
+    <priority>Medium</priority>
+    <description>h3. Issue Summary
+
+When migrating projects with JCMA, in theory, the add-on should only migrate the entities related to the selected projects. This also means that only the statuses being referenced in these project workflows should be imported which is not the current behavior.
+
+Right now, when a project is migrated via JCMA all instance statuses are migrated to the Cloud site.
+
+h3. Steps to Reproduce
+# Create a sample project.
+# Create extra statuses and make sure they are not related to the project's workflow.
+# Migrate the project with JCMA.
+
+h3. Expected Results
+
+JCMA should only migrate the statuses related to the workflow from the project being migrated.
+
+h3. Actual Results
+
+JCMA migrates all server statuses into the Cloud.
+
+h3. Workaround
+
+Delete the unwanted statuses after the migration has been finished.</description>
+    <reporterName>André K.</reporterName>
+    <creationDate>2020-10-19</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>All standard and custom fields are migrated every time a migration is run</summary>
+    <key>MIG-266</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1649709</uri>
+    <type>Bug</type>
+    <priority>Medium</priority>
+    <description>h3. Issue Summary
+
+All fields (custom or standard) will always be migrated (if supported) or come up in the pre-migration report (if unsupported), even though it is not referenced by a selected project.
+h3. Steps to Reproduce
+
+Example 1: Supported standard field
+ # Change a standard field from Global to being used by 0 projects
+ # Ensure that the field is used in 0 screens
+ # Migrate a project
+ # Observe that this standard field is still migrated even though it was not referenced in the project data
+
+Example 2: Supported custom field
+ # Ensure there is a supported custom field type configured in the Jira Server instance
+ # Migrate a project which does not have this custom field referenced in the data
+ # Observe that the custom field is still migrated even though it was not referenced in the project data
+
+Example 3: Unsupported custom field
+ # Ensure there is an unsupported custom field type configured in the Jira Server instance
+ # Migrate a project which does not have this custom field referenced in the data
+ # Observe that the unsupported custom fields is reported in the 'Pre-migration report' as it is considered part of the data set _(Note: the report is still in development)_
+
+h3. Expected Results
+
+For selected projects:
+ * Only migrate referenced standard fields. 
+ * Only migrate referenced custom fields.
+ ** Only report on referenced unsupported custom fields
+
+h3. Actual Results
+{noformat}
+All custom and standard fields are migrated every time a migration is run. This means that fields not required by the selected projects are migrated, resulting in longer migration runs, high risk of project migration failure and a higher burden on Cloud performance.
+
+If the field is supported - it can create noise in the destination instance by migrating fields that are not used by any project. 
+If the field is unsupported - it can create noise in the pre and post migration ‘Requires Attention' report by reporting to the customer that the field config won’t be migrated and that they should either fix/clean-up the issue unnecessarily. {noformat}
+h3. Workaround
+
+Delete the custom fields that are not required post-migration.</description>
+    <reporterName>Jason Wong</reporterName>
+    <creationDate>2020-10-06</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>All issue types migrated every time a migration is run</summary>
+    <key>MIG-254</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1635141</uri>
+    <type>Bug</type>
+    <priority>Medium</priority>
+    <description>h3. Issue Summary
+When migrating projects with [Jira Cloud Migration Assistant|https://confluence.atlassian.com/cloud/use-the-jira-cloud-migration-assistant-to-migrate-from-server-to-cloud-993925215.html], the plugin should only migrate entities related to the selected projects. This also means that only the Issue Types referenced in these project workflows should be migrated when a given project is selected. Currently, all migrations with JCMA  are bringing over all [Issue types|https://confluence.atlassian.com/adminjiracloud/issue-types-844500742.html]'  each time any migration is ran which can create duplicates on the target. 
+
+h3. Steps to Reproduce
+# Create a specific issue type and associated it with a non-migrating project
+# Install JCMA and migrate a project that doesn't have the issue type from step 1
+
+h3. Expected Results
+Only the issue types associated with selected projects will be migrated. 
+
+h3. Actual Results
+All issue types are migrated with any run of JCMA whether the selected project includes them or not. 
+
+h3. Workaround
+Delete the excessive issue types that are not required in *post migration*.</description>
+    <reporterName>Peter Schipper</reporterName>
+    <creationDate>2020-09-16</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>JIRA issue comment links to other issues are not always updated when migrating</summary>
+    <key>MIG-225</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1598569</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+When migrating projects with JCMA if the migrating project has comments mentioning issues from projects that were not migrated yet, those comments will be converted into text and won't have an actual link to those issues.
+
+h3. Steps to Reproduce
+# Create project A and project B.
+# Create an issue in each project.
+# Comment in the issues and use the issue key from the issue created in the counterpart project. JIRA should turn the issue key into a direct link to the issue.
+# Migrate project A with JCMA.
+# Migrate project B with JCMA in a separate plan.
+
+h3. Expected Results
+
+Both issues should be migrated and the comments on each should have a direct link to the issue.
+
+h3. Actual Results
+
+Only the issue from project B will have a valid link.
+Since projet A was migrated when project B didn't exist at the instance the issue-key remains as plain text on the project A comments.
+
+h3. Workaround
+
+It's possible to work around this issue by migrating the two projects in the same plan. But for a large instance, it should be difficult to migrate all projects at once.</description>
+    <reporterName>André K.</reporterName>
+    <creationDate>2020-07-23</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Import Error: Timestamp format must be yyyy-mm-dd hh:mm:ss[.fffffffff]</summary>
+    <key>MIG-218</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1595899</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Error when importing Jira Server file into Cloud. Timestamp format must be yyyy-mm-dd hh:mm:ss[.fffffffff]
+h3. Steps to Reproduce
+# Export backup from Jira Server
+# Extract file and grep for CustomFieldValue string in entities.xml
+{code:java}
+grep '&lt;CustomFieldValue id=' entities.xml
+{code}
+ # XML file contain CustomField lines contain and update field which does not have the correct data format. Examples:
+{code:java}
+&lt;CustomFieldValue id="13196957" issue="813688" customfield="10082" updated="1589885159355" stringvalue="10210"/&gt;
+&lt;CustomFieldValue id="13196958" issue="813688" customfield="10021" updated="1589885159356" stringvalue="10019"/&gt;
+....
+{code}
+# Problem is this line:
+{code}
+updated="1589885159355"
+{code}
+
+h3. Expected Results
+ * Jira Cloud to process the timestamp and convert it to the correct format. Previous fix on JRACLOUD-67557 allows import to proceed. Seems to be a regression
+
+h3. Actual Results
+ * Import fails with the following error:
+ !error.png|thumbnail!
+ * Related to previously fixed Server &gt; Cloud import error: JRACLOUD-67557
+
+h3. Additional Notes
+This can happen for other date time stamp values besides custom field value. Please contact Atlassian support if you need help with identifying the corrupt dates from your backup file. 
+
+h3. Workaround
+
+Currently there is no known workaround for this behavior. A workaround will be added here when available</description>
+    <reporterName>Jose R.</reporterName>
+    <creationDate>2020-07-21</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>CCMA doesn't work with authenticated outbound HTTP proxy</summary>
+    <key>MIG-206</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1572429</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+When JVM is configured with authenticated outbound proxy via system properties, CCMA can't connect to Migration App Aggregator, the service for collecting Marketplace and other data for App Assessment.
+h3. Steps to Reproduce
+ # Configure Confluence with [outbound http proxy|https://confluence.atlassian.com/kb/how-to-configure-outbound-http-and-https-proxy-for-your-atlassian-application-834000120.html]
+# Ensure that Web proxy requires any kind of authentication 
+ # Navigate to Migration Assistant
+
+h3. Expected Results
+
+Access your Apps section should work
+h3. Actual Results
+
+The following error happens,
+ !proxy-1-error.png|thumbnail!
+h3. Workaround
+
+Remove authentication from outbound proxies.</description>
+    <reporterName>Hassan Aftab</reporterName>
+    <creationDate>2020-06-18</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Jira Macro Repair needs to be run multiple times after a migration</summary>
+    <key>MIG-166</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1531856</uri>
+    <type>Bug</type>
+    <priority>High</priority>
+    <description>h3. Issue Summary
+Jira Macro Repair needs to be run multiple times after a migration
+
+h3. Steps to Reproduce
+* Run Jira Macro Repair
+ 
+h3. Expected Results
+* All macros are fixed in Confluence
+
+h3. Actual Results
+* All macros are not fixed in Confluence 
+* The macro repair needs to be run multiple times. 
+
+h3. Workaround
+*  The macro repair needs to be run multiple times. 
+</description>
+    <reporterName>Vik</reporterName>
+    <creationDate>2020-04-27</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Error executing space keys conflict check</summary>
+    <key>MIG-160</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1525814</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+There might be several different reasons for the Confluence Cloud Migration Assistant to be unable to check for the space key conflict, however, if you see the following logs on your server the problem might be the authorization has expired and you need to re-link your Server to your Cloud site.
+
+h3. Steps to Reproduce
+# Create a plan to migrate a space
+# Wait for a few days
+# Try to run that same plan again.
+
+h3. Expected Results
+
+The plan would migrate the space
+
+h3. Actual Results
+
+The below exception is thrown in the Atlassian-confluence.log file:
+
+{noformat}
+ERROR [Caesium-1-1] [service.check.space.SpaceConflictChecker] error Error executing space keys conflict check.
+– checkExecutionId: xxxxxxxxxxxx
+com.atlassian.migration.agent.okhttp.HttpServiceException: Bad request. Status code: 401, message: {"code":401,"message":"Unauthorized"}
+.....
+{noformat}
+
+h3. Workaround
+
+You can try to re-link your Cloud site to your Server, usually, that will solve the problem if not try [Restore the Cloud Migration Assistant for Confluence to its default version|https://confluence.atlassian.com/confkb/restore-the-cloud-migration-assistant-for-confluence-to-the-default-version-974378747.html], note that will wipe all your previous plans, it's also worth checking for any network appliances that could be blocking traffic and white list [Atlassian's Cloud IP's and Domains|https://confluence.atlassian.com/cloud/atlassian-cloud-ip-ranges-and-domains-744721662.html].
+
+[Reach out to support|https://getsupport.atlassian.com] if you continue to have this problem after going through the workaround above.</description>
+    <reporterName>Daniel Brito [Atlassian]</reporterName>
+    <creationDate>2020-04-19</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Group names are case sensitive in the Cloud</summary>
+    <key>MIG-108</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1470176</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+If a customer decides to migrate Confluence without users &amp; groups, but the group names in the cloud are in upper case, it will break the relation between them, space permissions will not work properly.
+
+*Note:* Confluence Server only allows group names in lower case.
+
+h3. Steps to Reproduce
+# Create a group in Confluence Server all in lower case.
+# Create the same group in the Cloud in upper case.
+# Insert this group into a space permission grid.
+# Migrate to the Cloud without users and groups.
+
+h3. Expected Results
+
+The group membership will be case insensitive.
+
+h3. Actual Results
+
+Group membership will be broken.
+
+ !Screen Shot 2020-01-15 at 11.18.12.png|thumbnail! 
+
+h3. Workaround
+
+Create the group in the Cloud with the exact same casing as in the Server.</description>
+    <reporterName>Daniel Brito [Atlassian]</reporterName>
+    <creationDate>2020-01-15</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Attachments are missing after Confluence migration to the cloud, error message "Attachment File Not Found"</summary>
+    <key>MIG-33</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1127458</uri>
+    <type>Bug</type>
+    <priority>High</priority>
+    <description>h3. Issue Summary
+
+Attachments are lost when migrating using the CMAC from server to cloud.
+h3. Environment
+
+Confluence Cloud
+h3. Steps to Reproduce
+ # Set up Confluence Server (5.10 to latest) with a production (i.e. non-H2) database
+ # Set up a Space, create a page and attach multiple images to the page
+ # Install the latest [Cloud Migration Assistant for Confluence|https://marketplace.atlassian.com/apps/1219672/cloud-migration-assistant-for-confluence?hosting=server&amp;tab=overview])
+ # Create and run a new plan to migrate the new space, and no users
+ # Wait for the plan to be successfully completed
+ # Review the imported data in the cloud
+
+h3. Expected Results
+All images appear correctly
+
+h3. Actual Results
+Attachments are broken. 
+
+Images do not display. Attachments may give an error with
+{noformat}
+`Attachment File Not Found`
+
+`The attachment you were trying to download could not be found in the attachment file store. Either the file has been deleted manually or there was an error in removing the record of the attachment from Confluence.`
+
+`If this attachment is no longer required you can delete it from Confluence on the attachments page. Otherwise, you will need to attach a new copy.`
+
+`&lt;&lt; Back to attachments page`
+{noformat}
+
+The below exception is thrown in the log file:
+{noformat}
+   message: Requested attachments not found in Filestore, so serving it locally. attachmentId: xxxxxxxx 
+{noformat}
+
+h3. Notes
+
+The cases reported, affected only space migration that was done using the Confluence Migration Assist for Cloud app, if we use the "Import a Confluence Space" feature from the Adminstration section, the issue it is not reproducible.
+
+If all the attachments are missing in a space, it is likely a different issue such as the export from an older, unsupported version of Confluence.
+
+On Confluence Cloud the attachments that are missing can be identified with as having no {{propertyname = 'FILESTORE_ID'}} in the {{contentproperties}} table, but having other {{propertyname}} data such as {{FILESIZE}}.
+
+One notable cause we've discovered is related to this issue
+* [CONFSERVER\-27594: Deleting a Page does not Delete its Draft (fixed in Confluence Server 6.15.3, 6.15.4)|https://jira.atlassian.com/browse/CONFSERVER-27594]
+
+which has been fixed in Confluence 6.15.3 and above. If the attachments are attached to a page, and the page has drafts and is deleted, then the attachments are not necessarily deleted if they are referenced in the draft. If those attachments are then referenced on another page in another space then they won't migrate.
+
+h3. Workaround
+
+1. Clear the MIG_ATTACHMENT table prior to remigrating any spaces
+2. Delete and re-import the effected space.
+
+h3. Notes for  Support Engineers
+If a customer reports this case, please provide for the developers
+* A full Confluence [Support Zip|https://confluence.atlassian.com/support/create-a-support-zip-790796819.html]
+* The *... &gt; Storage Format* of a page from Confluence Server and Confluence Cloud 
+* The URL of the Page in Confluence Server and in Confluence Cloud
+* From Confluence Server the output of
+{code:sql|title=Confluence Server}
+select * from mig_attachments;
+
+select * from mig_cloud_site;
+
+select content.*, contentproperties.*, spaces.*, mig_attachment.*
+from public.content
+join public.contentproperties on content.contentid = contentproperties.contentid
+join public.spaces on content.spaceid = spaces.spaceid
+left outer join public.mig_attachment on content.contentid = mig_attachment.attachmentid
+where content.contenttype = 'ATTACHMENT' and content.prevver is null
+order by content.contentid desc;
+
+select mig_step.planid, mig_step.starttime, mig_task.executionstatus, mig_step.steptype, mig_step.stepconfig, mig_task.spacekey from mig_step left join mig_task on mig_task.id = mig_step.taskid where steptype='CONFLUENCE_IMPORT';
+{code}
+* From Confluence Cloud the output of
+{code:sql|title=Confluence Cloud}
+select content.*, contentproperties.*, spaces.*
+from content
+join contentproperties on content.contentid = contentproperties.contentid
+join public.spaces on content.spaceid = spaces.spaceid
+where content.contenttype = 'ATTACHMENT' and content.prevver is null
+order by content.contentid desc;
+{code}
+</description>
+    <reporterName>Ramona Scripcaru</reporterName>
+    <creationDate>2019-02-28</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Syncing GitLab on DVCS has a large number of rest calls to GitLab</summary>
+    <key>JSWSERVER-20894</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1742814</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Syncing with GitLab on DVCS has a large number of calls to note and approver endpoints in GitLab causing performance degradation on the customers GitLab instance
+
+[https://getsupport.atlassian.com/browse/GHS-210136]
+h3. Steps to Reproduce
+ # TBD
+ ## Could be syncing or webhooks
+
+h3. Expected Results
+
+Managable number of requests - not in the hundreds every minute
+h3. Actual Results
+
+!image-2021-03-30-16-25-37-849.png!
+
+Calls to notes and approver endpoints are spamming the GitLab instance.
+h3. Workaround
+
+If determined to be from webhooks then the customer can revert temporaily to the old webhook using the feature flag
+{code:java}
+dvcs.connector.polling.synchronization.enabled{code}</description>
+    <reporterName>Rory Armstrong</reporterName>
+    <creationDate>2021-03-30</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Duplicate branches commits, and pull requests when synching Jira with GitHub</summary>
+    <key>JSWSERVER-20893</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1742602</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+After upgrading Jira to 8.14.x, there are duplicated repositories, commits, pull requests showing in the Development panel from the issues.
+
+When checking the database, we confirm data is duplicated as well:
+{code:sql}
+SELECT 
+    om.name AS "Org Name"
+    , rm.name AS "Repo Name"
+    , rm.slug
+    , rm.organization_id
+    , rm.fork
+    , rm.deleted
+    , rm.last_commit_date
+FROM AO_E8B6CC_REPOSITORY_MAPPING rm, AO_E8B6CC_ORGANIZATION_MAPPING om
+WHERE om.id = rm.organization_id AND rm.NAME = '&lt;repo-name&gt;';
+{code}
+(!) Affects GitHub accounts only.
+h3. Steps to Reproduce
+Steps to Reproduce
+- Upgrade to Jira 8.14
+- Set up a DVCS integration with Github
+- Commit to repository
+- Github Webhook automatically pings DVCS and syncs
+- Click on Issues &gt; Development panel, the commits will show twice:
+ !image-2021-03-30-11-35-36-647.png|width=414,height=193!
+
+h3. Expected Results
+
+Repositories commits pull requests to appear once
+h3. Actual Results
+GitHub does not fetch the correct organization as it was based on the host URL - which for multiple orgs is the same. Thus some organizations end up with duplicated repositories. 
+ !image-2021-03-30-11-35-36-647.png|width=414,height=193!
+
+Repositories are duplicated in the database as well.
+h3. Workaround
+
+Currently, there is no known workaround for this behavior. A workaround will be added here when available</description>
+    <reporterName>Victoria M</reporterName>
+    <creationDate>2021-03-30</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Webhook with JQL will fail silently if triggered by Bitbucket DVCS trigger</summary>
+    <key>JSWSERVER-20887</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1441904</uri>
+    <type>Bug</type>
+    <priority>High</priority>
+    <description>h3. Summary
+Webhook with JQL will fail silently if triggered by Bitbucket dvcs trigger
+
+h3. Steps to Reproduce
+
+# Setup a trigger in Jira to transition an issue upon commit.
+# Add a webhook with JQL configured.
+ !WebHooks - Jira 824 - Google Chrome 2020-02-14 09.57.32.png|thumbnail! 
+# Do a commit in Bitbucket.
+# Sync the repo manually in JIRA.
+
+h3. Expected Results
+
+Issue transition on Bitbucket trigger and webhook are fired.
+
+h3. Actual Results
+
+The issue transition correctly, but the webhook failed to be sent out with below error:
+{code}
+2020-02-05 11:46:02,861 DVCSConnector.EventService:thread-1 ERROR admin 589x923x1 1hmauia 0:0:0:0:0:0:0:1 /secure/admin/AddBitbucketOrganization!finish.jspa [c.a.event.internal.AsynchronousAbleEventDispatcher] There was an exception thrown trying to dispatch event [com.atlassian.jira.event.issue.IssueEvent@1e250fb3[issue=PWBT-4,comment=&lt;null&gt;,worklog=&lt;null&gt;,changelog=[GenericEntity:ChangeGroup][issue,13303][author,null][created,2020-02-05 11:46:00.718][id,20603],eventTypeId=13,sendMail=true,params={eventsource=workflow, baseurl=http://localhost:8851/j851},subtasksUpdated=false,spanningOperation=Optional.empty]] from the invoker [SingleParameterMethodListenerInvoker{method=public void com.atlassian.webhooks.plugin.WebHookEventsProcessor.onEvent(java.lang.Object), listener=com.atlassian.webhooks.plugin.WebHookEventsProcessor@4751be21}]
+java.lang.RuntimeException: Incorrect usage of JIRA/lucene search API. You can only create/use: ManagedIndexSearcher inside a context (request or Jira-Thread-Local). Check: JiraThreadLocalUtils for details.. Listener: com.atlassian.webhooks.plugin.WebHookEventsProcessor event: com.atlassian.jira.event.issue.IssueEvent
+	at com.atlassian.event.internal.SingleParameterMethodListenerInvoker.invoke(SingleParameterMethodListenerInvoker.java:57)
+	at com.atlassian.event.internal.AsynchronousAbleEventDispatcher.lambda$null$0(AsynchronousAbleEventDispatcher.java:37)
+	at com.atlassian.event.internal.AsynchronousAbleEventDispatcher.dispatch(AsynchronousAbleEventDispatcher.java:85)
+	at com.atlassian.event.internal.EventPublisherImpl.invokeListeners(EventPublisherImpl.java:227)
+	at com.atlassian.event.internal.EventPublisherImpl.publish(EventPublisherImpl.java:112)
+	at com.atlassian.jira.event.issue.DefaultIssueEventManager.publishEventIfNotificationsAreEnabled(DefaultIssueEventManager.java:180)
+	at com.atlassian.jira.event.issue.DefaultIssueEventManager.publishEvent(DefaultIssueEventManager.java:162)
+	at com.atlassian.jira.event.issue.DefaultIssueEventManager.publishAsRedundant(DefaultIssueEventManager.java:204)
+	at com.atlassian.jira.event.issue.DefaultIssueEventManager.dispatchRedundantEvent(DefaultIssueEventManager.java:101)
+	at com.atlassian.jira.workflow.function.event.FireIssueEventFunction.execute(FireIssueEventFunction.java:62)
+	at com.opensymphony.workflow.AbstractWorkflow.executeFunction(AbstractWorkflow.java:1014)
+	at com.opensymphony.workflow.AbstractWorkflow.transitionWorkflow(AbstractWorkflow.java:1407)
+	at com.opensymphony.workflow.AbstractWorkflow.doAction(AbstractWorkflow.java:557)
+	at com.atlassian.jira.workflow.OSWorkflowManager.doWorkflowActionInsideTxn(OSWorkflowManager.java:842)
+	at com.atlassian.jira.workflow.OSWorkflowManager.doWorkflowAction(OSWorkflowManager.java:799)
+	at com.atlassian.jira.bc.issue.DefaultIssueService.transition(DefaultIssueService.java:514)
+	... 3 filtered
+{code}
+
+h3. Workaround
+
+Currently there is no known workaround for this behavior. A workaround will be added here when available</description>
+    <reporterName>Amirul Ikhwan Omar</reporterName>
+    <creationDate>2019-11-13</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Kanban "This column is getting full" popup not displaying correctly</summary>
+    <key>JSWSERVER-20852</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1723421</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+The popup message is not displaying the values intended. It shows object names/placeholder values. It does not affect 8.5.1 nor 8.13.2 .
+h3. Steps to Reproduce
+ # Install 8.15 Jira Software Data Center
+ # Create a Kanban software development project
+ # Create 20+ issues
+
+h3. Expected Results
+
+A popup with the text below is expected to show (I confirmed the issues does NOT affect 8.5.1 nor 8.13.2):
+
+  !image-2021-02-26-17-44-42-011.png|width=394,height=229!
+h3. Actual Results
+
+ 
+
+!image-2021-02-26-17-03-31-271.png|width=421,height=276!  
+h3. Workaround
+
+To *disable* that popup entirely you can follow these steps:
+ # Go to *Jira Administration* (the cog in the top right-hand corner of Jira).
+ # Select *System*.
+ # Type ". Announcement" OR scroll down the left hand menu to the *User Interface* and select *Announcement Banner*.
+ # Paste code below into the *Announcement field*:
+{noformat}
+&lt;style type="text/css"&gt;
+.aui-inline-dialog.jira-help-tip.aui-help.js-kanplan-enable-inline-dialog { 
+  display: none !important;
+}
+&lt;/style&gt; {noformat}
+
+ # Select *Visibility* of *Private*.
+ # Click on *Set Banner*.</description>
+    <reporterName>Filipi Lima</reporterName>
+    <creationDate>2021-02-26</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Severe performance degradation for user login action due to contention in IndexedUserDao</summary>
+    <key>JSWSERVER-20844</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1719203</uri>
+    <type>Bug</type>
+    <priority>High</priority>
+    <description>h3. Issue Summary
+Mostly during the start of the day (when Jira has heavy login pressure from users), customer experienced a severe performance degradation (up to the point that system looks unresponsive). Upon further digging into thread dumps, we found 2 sets of problems:
+ # A large number of threads waiting for *ReadLock*  (action - /rest/internal/2/user/mention/search)
+ # At the same time, a group of thread waiting for a *WriteLock* (action - /plugins/servlet/samlconsumer)
+ both on {{DirectoryUserIndexer.java}}.
+
+This is caused by contention in the code and leads to situation, where a lot of threads (waiting for a ReadLock) are waiting on one thread that's supposed to get a WriteLock to update the {{UserIndex}}, but can't as it also waits on another thread which is currently having a ReadLock on {{UserIndex}} and doing the search.
+This causes cascading contention and degrades user experience in Jira for other actions (see JSWSERVER-20336).
+
+h3. Steps to Reproduce
+Details from the customer instance: 
+* 300k+ user
+* Massive amount of users logging in simultaneously at the start of the day
+* Lot of action attempting to do {{@mention}} users at the same time
+
+Have not attempted to repro in-house.
+
+h3. Expected Results
+Jira handles the start-of-the-day login pressure without hiccups
+
+h3. Actual Results
+* High load average: 
+!2020-11-25_20-07-42.png|thumbnail!
+* BLOCKED threads at {{com.atlassian.crowd.directory.DbCachingRemoteDirectory.updateUserAndSetActiveFlag}}
+{code}
+thread_dump_9.txt
+85
+thread_dump_10.txt
+84
+thread_dump_11.txt
+85
+thread_dump_12.txt
+84
+thread_dump_13.txt
+84
+thread_dump_14.txt
+85
+{code}
+* These threads are blocked by one WAITING thread which needs to get a WriteLock at at com.atlassian.jira.bc.user.search.DirectoryUserIndexer.refreshSearcher(DirectoryUserIndexer.java:127) 
+
+h3. Notes
+Related thread dumps. 
+* *Synchronised* Threads waiting during authentication: 
+{noformat}
+"http-nio-9080-exec-637" #261926 daemon prio=5 os_prio=0 tid=0x00007fb344586ef0 nid=0x5df0 waiting for monitor entry [0x00007fb28d24b000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at com.atlassian.jira.crowd.embedded.ofbiz.IndexedUserDao.update(IndexedUserDao.java:318)
+	- waiting to lock &lt;0x0000000145c5e268&gt; (a java.lang.Object)
+	at com.atlassian.jira.crowd.embedded.ofbiz.DelegatingUserDao.update(DelegatingUserDao.java:98)
+	at com.atlassian.jira.crowd.embedded.ofbiz.SwitchingUserDao.update(SwitchingUserDao.java:30)
+	at com.atlassian.crowd.directory.CachingDirectory.updateUser(CachingDirectory.java:142)
+	at com.atlassian.crowd.directory.DbCachingRemoteDirectory.updateUserAndSetActiveFlag(DbCachingRemoteDirectory.java:324)
+	at com.atlassian.crowd.directory.DbCachingRemoteDirectory.updateUserFromRemoteDirectory(DbCachingRemoteDirectory.java:266)
+	at com.atlassian.crowd.directory.RemoteDirectory.userAuthenticated(RemoteDirectory.java:592)
+	at com.atlassian.crowd.directory.DbCachingRemoteDirectory.userAuthenticated(DbCachingRemoteDirectory.java:281)
+	at com.atlassian.crowd.manager.directory.DirectoryManagerGeneric.userAuthenticated(DirectoryManagerGeneric.java:278)
+	at com.atlassian.crowd.manager.application.ApplicationServiceGeneric.userAuthenticated(ApplicationServiceGeneric.java:2357)
+	at com.atlassian.crowd.embedded.core.CrowdServiceImpl.userAuthenticated(CrowdServiceImpl.java:109)
+...
+{noformat}
+* Thread which waits for *WriteLock* at {{DirectoryUserIndexer.refreshSearcher}}
+{noformat}
+"http-nio-9080-exec-611" #256200 daemon prio=5 os_prio=0 tid=0x00007fb3503bfaf0 nid=0xe398 waiting on condition [0x00007fb28ce47000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  &lt;0x0000000145c5e1e8&gt; (a java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:836)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireQueued(AbstractQueuedSynchronizer.java:870)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:1199)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.lock(ReentrantReadWriteLock.java:943)
+	at com.atlassian.jira.bc.user.search.DirectoryUserIndexer.refreshSearcher(DirectoryUserIndexer.java:127)
+	at com.atlassian.jira.bc.user.search.DirectoryUserIndexer.index(DirectoryUserIndexer.java:159)
+	at com.atlassian.jira.crowd.embedded.ofbiz.IndexedUserDao.update(IndexedUserDao.java:320)
+	- locked &lt;0x0000000145c5e268&gt; (a java.lang.Object)
+	at com.atlassian.jira.crowd.embedded.ofbiz.DelegatingUserDao.update(DelegatingUserDao.java:98)
+	at com.atlassian.jira.crowd.embedded.ofbiz.SwitchingUserDao.update(SwitchingUserDao.java:30)
+	at com.atlassian.crowd.directory.CachingDirectory.updateUser(CachingDirectory.java:142)
+	at com.atlassian.crowd.directory.DbCachingRemoteDirectory.updateUserAndSetActiveFlag(DbCachingRemoteDirectory.java:324)
+	at com.atlassian.crowd.directory.DbCachingRemoteDirectory.updateUserFromRemoteDirectory(DbCachingRemoteDirectory.java:266)
+	at com.atlassian.crowd.directory.RemoteDirectory.userAuthenticated(RemoteDirectory.java:592)
+	at com.atlassian.crowd.directory.DbCachingRemoteDirectory.userAuthenticated(DbCachingRemoteDirectory.java:281)
+	at com.atlassian.crowd.manager.directory.DirectoryManagerGeneric.userAuthenticated(DirectoryManagerGeneric.java:278)
+	at com.atlassian.crowd.manager.application.ApplicationServiceGeneric.userAuthenticated(ApplicationServiceGeneric.java:2357)
+	at com.atlassian.crowd.embedded.core.CrowdServiceImpl.userAuthenticated(CrowdServiceImpl.java:109)
+[...]
+{noformat}
+* RUNNABLE thread holding the *ReadLock* and executing the seach
+{noformat}
+"http-nio-9080-exec-635" #261922 daemon prio=5 os_prio=0 tid=0x00007fb35030d5f0 nid=0x5dec runnable [0x00007fb28e3ab000]
+   java.lang.Thread.State: RUNNABLE
+	at org.apache.lucene.store.RAMFile.numBuffers(RAMFile.java:68)
+	- locked &lt;0x00000001d3000040&gt; (a org.apache.lucene.store.RAMFile)
+	at org.apache.lucene.store.RAMInputStream.setCurrentBuffer(RAMInputStream.java:125)
+	at org.apache.lucene.store.RAMInputStream.nextBuffer(RAMInputStream.java:119)
+....
+	at com.atlassian.jira.bc.user.search.DirectoryUserIndexer.internalSearch(DirectoryUserIndexer.java:262)
+	at com.atlassian.jira.bc.user.search.DirectoryUserIndexer.search(DirectoryUserIndexer.java:228)
+...
+	at com.atlassian.jira.crowd.embedded.ofbiz.IndexedUserDao.trySearching(IndexedUserDao.java:426)
+	at com.atlassian.jira.crowd.embedded.ofbiz.IndexedUserDao.search(IndexedUserDao.java:417)
+...
+{noformat}
+** Note: {{DirectoryUserIndexer.internalSearch}}
+
+h3. Workaround
+Since problem is caused by a number of factors, we suggest to have multi-factor approach to reduce it:
+* Descrese number of users in the system (if possible), to reduce the cost of computing  {{@mention}}
+* Increase CPU cores to improve the time spent in the lock
+* Identify bot user accounts creating unnatural login pressure
+* Increase session timeout or remove bot-killer to reduce frequency of users needing to login/authenticate
+</description>
+    <reporterName>Suddha</reporterName>
+    <creationDate>2021-02-18</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Completing subtasks in parent task cause Javascript error on Active Sprint</summary>
+    <key>JSWSERVER-20837</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1716398</uri>
+    <type>Bug</type>
+    <priority>High</priority>
+    <description>h3. Issue Summary
+
+If a user completes all the subtasks under a parent task, Jira throws a Javascript error instead of "Move to done" pop up.
+
+h3. Steps to Reproduce
+
+# Create a Sprint on a board.
+# Create a parent issue and subtask under the issue.
+# Start the Sprint
+# From Active Sprint view, drag the subtask under the parent task to right most column.
+
+Video: [^JSWSERVER-20837.webm] 
+
+h3. Expected Results
+
+Jira shows "Move to done" popup to ask if the user would like to move the parent task to the right most column (done column).
+
+h3. Actual Results
+
+Jira shows the following Javascript error:
+
++In Google Chrome+
+
+{code}
+Stack trace
+TypeError: i(...).html is not a function
+at Object.o.showDialog (http://jira.maeve.com/vicky/s/91dc5346f12ccff724bf6e2fba7b16ab-CDN/suo2v6/815001/6411e0087192541a09d88223fb51a6a0/bd395930f8ed93ae280f8b25b772c4b2/_/download/contextbatch/js/gh-rapid-work,greenhopper-rapid-non-gadget,jira.project.sidebar,jira.global,atl.general,com.atlassian.jira.projects.sidebar.init,-_super/batch.js?agile_global_admin_condition=true&amp;baseurl-check-resources=true&amp;flexboards=true&amp;healthcheck-resources=true&amp;jag=true&amp;jaguser=true&amp;locale=en-MY&amp;whisper-enabled=true:6834:301)
+at Object. (http://jira.maeve.com/vicky/s/91dc5346f12ccff724bf6e2fba7b16ab-CDN/suo2v6/815001/6411e0087192541a09d88223fb51a6a0/bd395930f8ed93ae280f8b25b772c4b2/_/download/contextbatch/js/gh-rapid-work,greenhopper-rapid-non-gadget,jira.project.sidebar,jira.global,atl.general,com.atlassian.jira.projects.sidebar.init,-_super/batch.js?agile_global_admin_condition=true&amp;baseurl-check-resources=true&amp;flexboards=true&amp;healthcheck-resources=true&amp;jag=true&amp;jaguser=true&amp;locale=en-MY&amp;whisper-enabled=true:6892:9778)
+{code}
+
++In Safari+
+
+{code}
+Exception: TypeError: i(".aui-blanket").html is not a function. (In 'i(".aui-blanket").html('')', 'i(".aui-blanket").html' is undefined)
+{code}
+
+h3. Workaround
+
+Dismiss the Javascript error, refresh the page and the user can move the parent issue to the right most column manually.</description>
+    <reporterName>Vicknesh Shanmugam</reporterName>
+    <creationDate>2021-02-11</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Issue removed from Sprint not showing in Burndown Chart or Sprint Report when moving from Sprint to Sprint</summary>
+    <key>JSWSERVER-20815</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1704547</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Some issues removed from sprints are no showing under the '*Issues Removed From Sprint*' section when looking at the Sprint Report, when moving the issue from *Sprint* to *Sprint*.
+h3. Steps to Reproduce
+ # Create a *Sprint A*
+ # Create a *Sprint B*
+ # *Create a* *Sprint C*
+ # Create some issues (Issue 1, Issue 2, Issue 3) *and move them to Sprint A*
+ # Start *Sprint A*
+ # Move the *Issue 1* from *Sprint A* to *Sprint B*
+ # Complete *Sprint A*
+ # Check the *'Issue Removed From Sprint'* section in the *Sprint Report* (*Issue 1* should correctly show as removed from Sprint A) ** 
+ # Move *Issue 2* and *Issue 3* to *Sprint B*
+ # Start *Sprint B*
+ # Move again the *Issue 1*  * *to *Sprint C*
+ # Complete *Sprint B*
+ # Check the '*Issue Removed From Sprint*' section in the Sprint Report from *Sprint B,* we will see that *Issue 1* will be missing.
+
+ Sample video: 
+
+[^Issue Removed from Sprint bug.mov]
+h3. Expected Results
+
+Issue 1 is listed in the '*Issue Removed From Sprint*' section in the Sprint Report from *Sprint B*
+
+!image-2021-01-19-12-36-38-379.png|width=1113,height=415!
+h3. Actual Results
+
+Issue 1 is *not* listed in the '*Issue Removed From Sprint*' section in the Sprint Report from *Sprint B*
+
+!image-2021-01-19-12-32-39-967.png|width=1140,height=357!
+h3. Workaround
+
+Currently, there is no known workaround for this behavior. A workaround will be added here when available</description>
+    <reporterName>Rodrigo Jose Zaparoli</reporterName>
+    <creationDate>2021-01-19</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Archiving issues does not remove ranking </summary>
+    <key>JSWSERVER-20792</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1692437</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+When archiving issues they are not removed from the Lexorank tables, this defeats the spirit of archiving an issue and has been validated as a bug by our Dev team.
+h3. Steps to Reproduce
+ # Spin up a new instance of Jira Software
+ # Create a test project with sample data
+ # Validate the ranking of all issues in the lexorank table: 
+{code:java}
+ jira855=# select * from "AO_60DB71_LEXORANK";
+ FIELD_ID | ID |       ISSUE_ID       | LOCK_HASH | LOCK_TIME |   RANK    | TYPE | BUCKET 
+----------+----+----------------------+-----------+-----------+-----------+------+--------
+    10019 |  2 |  9223372036854775807 |           |           | 1|zzzzzz: |    2 |      1
+    10019 | 55 |                10222 |           |           | 1|hzzzzz: |    1 |      1
+    10019 | 54 |                10221 |           |           | 1|hzzzzr: |    1 |      1
+    10019 | 53 |                10220 |           |           | 1|hzzzzj: |    1 |      1
+    10019 | 52 |                10219 |           |           | 1|hzzzzb: |    1 |      1
+    10019 | 51 |                10218 |           |           | 1|hzzzz3: |    1 |      1
+    10019 | 50 |                10217 |           |           | 1|hzzzyv: |    1 |      1
+    10019 | 49 |                10216 |           |           | 1|hzzzyn: |    1 |      1
+    10019 | 47 |                10214 |           |           | 1|hzzzyf: |    1 |      1
+    10019 | 46 |                10213 |           |           | 1|hzzzy7: |    1 |      1
+    10019 | 44 |                10211 |           |           | 1|hzzzxz: |    1 |      1
+    10019 | 43 |                10210 |           |           | 1|hzzzxr: |    1 |      1
+    10019 | 48 |                10215 |           |           | 1|hzzzxj: |    1 |      1
+    10019 | 33 |                10200 |           |           | 1|hzzzxb: |    1 |      1
+    10019 | 42 |                10209 |           |           | 1|hzzzx3: |    1 |      1
+    10019 | 45 |                10212 |           |           | 1|hzzzwv: |    1 |      1
+    10019 | 40 |                10207 |           |           | 1|hzzzwn: |    1 |      1
+    10019 | 39 |                10206 |           |           | 1|hzzzwf: |    1 |      1
+    10019 | 37 |                10204 |           |           | 1|hzzzw7: |    1 |      1
+    10019 | 36 |                10203 |           |           | 1|hzzzvz: |    1 |      1
+    10019 | 35 |                10202 |           |           | 1|hzzzvr: |    1 |      1
+    10019 | 41 |                10208 |           |           | 1|hzzzvj: |    1 |      1
+    10019 | 38 |                10205 |           |           | 1|hzzzvb: |    1 |      1
+    10019 | 34 |                10201 |           |           | 1|hzzzv3: |    1 |      1
+    10019 | 13 |                10101 |           |           | 1|hzzzuv: |    1 |      1
+    10019 | 12 |                10100 |           |           | 1|hzzzun: |    1 |      1
+    10019 |  5 |                10002 |           |           | 1|hzzzuf: |    1 |      1
+    10019 |  4 |                10001 |           |           | 1|hzzzu7: |    1 |      1
+    10019 |  3 |                10000 |           |           | 1|hzzztz: |    1 |      1
+    10019 |  1 | -9223372036854775808 |           |           | 1|000000: |    0 |      1{code}
+
+ #  Archive all of the issues in the project.
+ # The lexorank table remains untouched and the archived issues are "abandoned"
+ # Perform a rebalance (table remains in the same state)
+ # Perform a lock and reindex (tables remains in the same state)
+
+h3. Expected Results
+
+The issues that were archived should be removed from AO_60DB71_LEXORANK.
+h3. Actual Results
+
+The AO_60DB71_LEXORANK table remains untouched.
+h3. Workaround
+* Remove rows related to arhived issues from {{AO_60DB71_LEXORANK}} table manually. </description>
+    <reporterName>Ronnie Volkmar</reporterName>
+    <creationDate>2020-12-11</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Move Issue: Components dropdown rendering problem</summary>
+    <key>JSWSERVER-20787</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1690388</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+When attempting to move an issue to another project the dropdown for fields value inside the components becomes unreadable. This is happening due to down arrows showing on the back of the field.
+h3. Steps to Reproduce
+ # Create components inside two different projects.
+ ** Example: Project1 and Project2
+ # Create an issue on Project1
+ # Assign a component to this issue
+ # Create a sub-task for this issue
+ # Move issue from Project1 to Project2
+ # The rendering problem will show in Step 1 of 2: Update fields for Target Project on the field value dropdown for components. 
+
+h3. Expected Results
+
+The field value should be readable and not have the rendering problem shown on the actual results. 
+h3. Actual Results
+
+!image-2020-12-07-15-57-48-904.png|width=750,height=312!
+
+(i) The issue does look to be happening on Jira 8.5 but it is not as impactful as version 8.13 and 8.14.
+
+!image-2020-12-07-15-54-50-342.png|width=750,height=312!
+h3. Workaround
+
+Currently, there is no known workaround for this behavior. A workaround will be added here when available</description>
+    <reporterName>Carlos Vigier</reporterName>
+    <creationDate>2020-12-07</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Velocity chart show wrong committed story points if issues are coming from another sprint and removed during the sprint</summary>
+    <key>JSWSERVER-20777</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1686012</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Velocity chart show wrong committed story points if issues are coming from another sprint and removed during the sprint.
+h3. Steps to Reproduce
+ # In a Scrum project create *2 stories* and *2 sprint* (*sprint a* and *sprint b*)
+ # Add the 2 stories to *sprint a*, estimate them with 3 story points each *but don't start the sprint.*
+ # Move the 2 stories to *sprint b* and *start sprint b*.
+ # While sprint b is still open, move one of the 2 issues out of the sprint.
+ # Complete sprint b.
+ # Open the Velocity Chart and observe that *the gray bar with the committed story points only show 3 story points when there should be 6*. *The Story points committed for the issue which is moved out from the sprint b while was still in progress are not anymore included in the gray bar*:
+ !Screenshot 2020-11-26 at 15.39.35.png|thumbnail!
+
+
+h3. Expected Results
+
+As default behaviour, the gray bar in velocity chart for each sprint shows the total estimate of all issues in the sprint when it begins disregarding if some are removed before the end of the sprint.
+h3. Actual Results
+
+Velocity Chart doesn't show committed story points if issues are coming from another sprint and removed during the sprint.
+h3. Workaround
+
+Currently there is no known workaround for this behavior. A workaround will be added here when available</description>
+    <reporterName>Tiziana Marchionni</reporterName>
+    <creationDate>2020-11-26</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Unable to link Epic without Edit Issue permissions</summary>
+    <key>JSWSERVER-20770</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1679739</uri>
+    <type>Bug</type>
+    <priority>High</priority>
+    <description>h3. Issue Summary
+
+Users lacking the 'Edit Issues' permission are not able to link an Epic to newly created or existing issues. However, despite an error message when performing this action, a new issue is still created and the workflow is left in a broken state for that issue.
+
+This issue was introduced in JSW *8.11.0* and is not occurring in *8.10.1*.
+h3. Steps to Reproduce
+ # Create two Software projects.
+ # Remove '*Edit Issues*' permission in the Project A permission scheme.
+ # Create an Epic in '*Project A*'.
+ # Create a new issue (or edit existing issue) in '*Project B*' with the Epic Link assigned to the Epic created in step 3.
+
+h3. Expected Results
+
+The issue is not created because the user does not have the appropriate permission. See JSWSERVER-13986 for related suggestion.
+h3. Actual Results
+
+As of 8.11, the user gets an unclear error message that is shown in the screenshot and the impression the issue isn't submitted:
+{code:java}
+We can't create this issue for you right now, it could be due to unsupported content you've entered into one or more of the issue fields. If this situation persists, contact your administrator as they'll be able to access more specific information in the log file.
+{code}
+
+However:
+# The issue is created without the Epic Link or required fields.
+# The {{os_wfentry.state}} for the issue is set to 0 so no workflow transition button appears on the view issue screen.
+
+h5. New Issue
+
+!NewIssue.png|width=602,height=74!
+{code:java}
+/secure/QuickCreateIssue.jspa [c.a.j.bc.issue.DefaultIssueService] Error creating issue:
+com.atlassian.jira.exception.CreateException: You do not have permission to edit issue PROJECTA-1.
+{code}
+{{OS_WFENTRY}}:
+||ID||NAME||INITIALIZED||STATE||
+|10601|Software Simplified Workflow for Project SCRUM|NULL|0|
+h5. Existing Issue
+
+!ExistingIssue.png|width=595,height=41!
+{code:java}
+/secure/QuickEditIssue.jspa [c.a.j.bc.issue.DefaultIssueService] Exception occurred editing issue: java.lang.RuntimeException: You do not have permission to edit issue PROJECTA-1.
+java.lang.RuntimeException: You do not have permission to edit issue PROJECTA-1.
+{code}
+h3. Workaround
+
+The workaround is to:
+ # Search for the new issue – either by direct URL or through the database.
+ # Add the required fields and Epic Link (under a user that has permission).
+ # Fix the workflow with the KB [Workflow transition button missing from the issue view page in Jira server.|https://confluence.atlassian.com/jirakb/workflow-transition-button-missing-from-the-issue-view-page-in-jira-server-800304645.html]
+
+{panel:bgColor=#fff8c9}
+(i) Always back up your data before performing any modifications to the database. If possible, test any alter, insert, update, or delete SQL commands on a staging server first.
+{panel}</description>
+    <reporterName>Nathan Lopez</reporterName>
+    <creationDate>2020-11-17</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Announcement banner help link points to wiki markup formatting text effects </summary>
+    <key>JSWSERVER-20665</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1608878</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+Announcement banner help link points to wiki markup formatting text effects 
+
+
+h3. Steps to Reproduce
+ # Open the announcement banner configuration page
+ # Clic on the help link:
+ !Screenshot_2020-08-07_at_16_47_13.jpg|thumbnail! 
+ # Observe that the link bring to *&lt;jiraurl&gt;/secure/WikiRendererHelpAction.jspa?section=texteffects* which contains the wiki markup examples for text formatting notation while the Announcement banner accept HTML.
+# This is confusing and the help link should be removed
+
+h3. Expected Results
+the help link should point to a page which explain that banner accept HTML
+
+h3. Actual Results
+the help link points to a misleading page
+
+h3. Workaround
+Currently there is no known workaround for this behavior. A workaround will be added here when available</description>
+    <reporterName>Tiziana Marchionni</reporterName>
+    <creationDate>2020-08-10</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Performance of Jira can degrade significantly due to slow sprint cache population</summary>
+    <key>JSWSERVER-20618</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1583456</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+Jira inefficiently populates Sprint cache ({{com.atlassian.greenhopper.service.sprint.SprintManagerImpl.sprintCache}}) due to loading all elements in one go.  
+The sprint cache population may become slow depending on the number of sprints that exist on the instance. In addition to that, some external factors such as the latency between the JVM and the DB server can also contribute to this behavior. 
+
+In some cases 15k rounds trips between the application and the database (see details below) will be required for the entire data set to be retrieved by the thread populating the cache - this translates to a total of _15 seconds_ of waiting time, if the latency between Jira and the DB server is at 1ms. An increased latency between the app server and the DB server will increase the time it takes for the full results of the query to reach the application exponentially.
+
+h3. Steps to Reproduce
+# Set up Jira (8.5.4, 7.6.13)
+# Create 150k sprints.
+# Complete any sprint (this triggers a sprint cache flush)
+#* Same fore _createSprint_, _deleteSprint_, _updateSprint_
+
+h3. Expected Results
+The sprint cache will be populated again very quickly.
+
+h3. Actual Results
+It will take 20+ seconds or even minutes for the sprint cache to be fully populated. During this period, any other threads that require sprint information will be parked, as the sprint cache is not available to them at this time. Once the thread currently populating the sprint cache finishes retrieving the entire data set, other threads will progress normally.
+
+The thread populating the sprint will have a similar stack:
+{code}
+sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+sun.nio.ch.IOUtil.read(IOUtil.java:197)
+sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+oracle.net.nt.TimeoutSocketChannel.read(TimeoutSocketChannel.java:144)
+oracle.net.ns.NIOHeader.readHeaderBuffer(NIOHeader.java:82)
+oracle.net.ns.NIOPacket.readFromSocketChannel(NIOPacket.java:139)
+oracle.net.ns.NIOPacket.readFromSocketChannel(NIOPacket.java:101)
+oracle.net.ns.NIONSDataChannel.readDataFromSocketChannel(NIONSDataChannel.java:80)
+oracle.jdbc.driver.T4CMAREngineNIO.prepareForReading(T4CMAREngineNIO.java:98)
+oracle.jdbc.driver.T4CMAREngineNIO.unmarshalUB1(T4CMAREngineNIO.java:534)
+oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:485)
+oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:252)
+oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:612)
+oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:226)
+...
+com.sun.proxy.$Proxy3126.stream(Unknown Source)
+com.atlassian.greenhopper.service.sprint.SprintDao.loadAll(SprintDao.java:19)
+com.atlassian.greenhopper.service.sprint.SprintManagerImpl$SprintCacheSupplier.get(SprintManagerImpl.java:432)
+com.atlassian.greenhopper.service.sprint.SprintManagerImpl$SprintCacheSupplier.get(SprintManagerImpl.java:425)
+com.atlassian.cache.compat.delegate.DelegatingSupplier.get(DelegatingSupplier.java:22)
+com.atlassian.cache.ehcache.EhCacheManager$SupplierAdapter.load(EhCacheManager.java:260)
+...
+com.atlassian.jira.cluster.cache.ehcache.BlockingParallelCacheReplicator.runDeferred(BlockingParallelCacheReplicator.java:172)
+com.atlassian.jira.cache.DeferredReplicationCachedReference.get(DeferredReplicationCachedReference.java:28)
+com.atlassian.cache.compat.delegate.DelegatingCachedReference.get(DelegatingCachedReference.java:22)
+com.atlassian.greenhopper.service.sprint.SprintManagerImpl.getAllSprints(SprintManagerImpl.java:124)
+com.atlassian.greenhopper.service.sprint.SprintManagerImpl.getSprints(SprintManagerImpl.java:132)
+{code}
+
+While threads that are trying to access the sprint cache will be parked at the following stack:
+{code}
+at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  &lt;0x0000000206cdbf10&gt; (a java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:836)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireShared(AbstractQueuedSynchronizer.java:967)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireShared(AbstractQueuedSynchronizer.java:1283)
+	at java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.lock(ReentrantReadWriteLock.java:727)
+	at net.sf.ehcache.concurrent.ReadWriteLockSync.lock(ReadWriteLockSync.java:50)
+	at net.sf.ehcache.constructs.blocking.BlockingCache.acquiredLockForKey(BlockingCache.java:196)
+	at net.sf.ehcache.constructs.blocking.BlockingCache.get(BlockingCache.java:158)
+	at com.atlassian.cache.ehcache.LoadingCache.get(LoadingCache.java:79)
+	at com.atlassian.cache.ehcache.DelegatingCachedReference.get(DelegatingCachedReference.java:73)
+	at com.atlassian.jira.cache.DeferredReplicationCachedReference$$Lambda$265/1538681607.get(Unknown Source)
+	at com.atlassian.jira.cluster.cache.ehcache.BlockingParallelCacheReplicator.runDeferred(BlockingParallelCacheReplicator.java:172)
+	at com.atlassian.jira.cache.DeferredReplicationCachedReference.get(DeferredReplicationCachedReference.java:28)
+	at com.atlassian.cache.compat.delegate.DelegatingCachedReference.get(DelegatingCachedReference.java:22)
+	at com.atlassian.greenhopper.service.sprint.SprintManagerImpl.getSprint(SprintManagerImpl.java:110)
+	...
+{code}
+
+h3. Notes
+* Problem get amplified for Oracle DB.  The reason for this is that by default, the Oracle JDBC driver fetch results of a SQL query streaming it from DB by 10 rows at a time. In a situation where a table has 150k records, 15k round trips will be required for the complete information of the table to reach the application. When the sprint cache gets flushed, a full table scan of the {{AO_60DB71_SPRINT}} table is performed to populate the sprint cache.
+* Using an instance where 150k sprints exist as an example in Oracle DB , 15k rounds trips between the application and the database will be required for the entire data set to be retrieved by the thread waiting on this information - this translates to a total of 15 seconds if the latency between Jira and the DB server is at 1ms. An increased latency between the app server and the DB server will increase the time it takes for the full results of the query to reach the application exponentially.
+
+h3. Workaround
+* For Oracle DB, Increase the number of results that can be fetched at a single time by the Oracle JDBC driver:
+https://docs.oracle.com/cd/E18283_01/java.112/e16548/resltset.htm#i1023619
+This can be done by adding the following line to the {{dbconfig.xml}} file, inside the {{&lt;jdbc-datasource&gt;}} section:
+{code}
+&lt;connection-properties&gt;defaultRowPrefetch=XXX&lt;/connection-properties&gt;
+{code}
+(i) XXX translates to the numerical value of results we'll be fetching. The default value is 10 - we have seen an increase to _200_ being very effective while adding very little overhead to the JVM's memory utilization.
+* See also a related KB [Using the default Oracle JDBC fetch size may lead to performance issues in Jira|https://confluence.atlassian.com/jirakb/using-the-default-oracle-jdbc-fetch-size-may-lead-to-performance-issues-in-jira-1014278793.html]</description>
+    <reporterName>Lucas Bugs</reporterName>
+    <creationDate>2020-07-02</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Epic Burndown report does not display the chart depending on how the Epic Link was created.</summary>
+    <key>JSWSERVER-20617</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1575598</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+
+Epic Burndown report does not display the chart depending on how the Epic Link was created.
+h3. Steps to Reproduce
+
+The Epic Burndown report does not display the chart when using sequence 1 and 2 below to create the Epic Link:
+
+*Sequence 1:*
+ * New Scrum Project Area
+ * Create button, new issue Epic; Epic Name 1, unassigned, SCRUM7-1
+ * Create button, new issue Story 1, Assigned to "user1", Epic link to "Epic Name 1 - (SCRUM7-1)"
+ * Create button, new issue Story 2, Assigned to "user1", Epic link to "Epic Name 1 - (SCRUM7-1)"
+ * Open Epic Burndown report: It shows:
+{code:java}
+This chart cannot be displayed
+There are no estimated issues in this epic.
+Estimate issues in the Backlog
+{code}
+
+ * Click the button "Estimate issues in the Backlog"
+ * Click each story and assign an Estimative at the quick edit: Story 1, Estimate 5 pts; Story 2, Estimate 3pts;
+ * Open Epic Burndown report: same results.
+
+*Sequence 2*
+ * New Scrum Project Area
+ * Create button, new issue Epic; Epic Name 1, unassigned, SCRUM8-1
+ * Open backlog, Epic panel and expand the Epic information
+ * Use the link "Create an issue in Epic" to create a new issue
+ * Create Story 1, Assigned to "user1"
+ * Create Story 2, Assigned to "user1"
+ * Open Epic Burndown report: It shows
+{code:java}
+This chart cannot be displayed
+There are no estimated issues in this epic.
+Estimate issues in the Backlog
+{code}
+
+ * Click the "Estimate issues in the Backlog"
+ * Click each story and assign an Estimative, like Story 1, Estimate 5 pts
+ * Open Epic Burndown report: same results.
+
+*Sequence 3*
+ * New Scrum Project Area
+ * Create button, new issue Epic; Epic Name 1, unassigned, SCRUM9-1
+ * Create Story 1
+ * Create Story 2
+ * Edit Story 1 created, search for the field "Epic Link"
+ * At the Epic link field - type "SCRUM9..." - It will show the "Epic Name 1 - (SCRUM9-1)" at the suggestions - Select it and confirm
+ * Edit Story 2 created, search for the field "Epic Link"
+ * At the Epic link field - type "SCRUM9..." - It will show the "Epic Name 1 - (SCRUM9-1)" at the suggestions - Select it and confirm
+ * Open the backlog
+ * Click each story and assign an Estimative, like Story 1, Estimate 5 pts; Story 2, Estimate 3pts;
+ * Open Epic Burndown report: it will show correctly the graph, as expected.
+
+h3. Expected Results
+The graph is presented for all three sequences of steps.
+
+h3. Actual Results
+The graph is not presented for sequence 1 and 2:
+{code:java}
+This chart cannot be displayed
+There are no estimated issues in this epic.
+Estimate issues in the Backlog
+{code}
+The team can not keep track of the work that was done or to be done at the Epic. 
+
+h3. Workaround
+
+Currently, there is no known workaround to fix the already incorrect Epic/Issues.
+
+*The overall recommendation is to create the issue first, and then, edit the issue adding the Epic Link.*
+
+
+Note: Issue was not reproduced using Jira 7.13.8</description>
+    <reporterName>Isabel Murakami</reporterName>
+    <creationDate>2020-06-22</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Adding Epic Link isn't recorded in issue history when epic is specified in issue creation dialog</summary>
+    <key>JSWSERVER-20520</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1530631</uri>
+    <type>Bug</type>
+    <priority>Low</priority>
+    <description>h3. Issue Summary
+Activity to link to an epic isn't recorded in issue history when epic is specified in issue creation dialog.
+This causes a discrepancy between the chart and the summary in the [Epic Report|https://confluence.atlassian.com/jirasoftwareserver/epic-report-938845665.html] as the chart is rendered based on the issue history. 
+
+This behavior is not observed in 7.10.1. i.e. Epic Link was recorded properly in creation dialog.
+
+
+h3. Steps to Reproduce
+ # Create an epic 
+ # Create an issue and set the epic above in the creation dialog
+
+
+h3. Expected Results
+Adding Epic Link is recorded in the issue history of the ticket 
+ !Screen Shot 2020-04-24 at 9.43.18.png|thumbnail! 
+
+h3. Actual Results
+Epic Link is not recorded.
+
+
+h3. Workaround
+Create an issue without filling an epic, and then edit the issue to link to the epic. 
+</description>
+    <reporterName>Nobuyuki Mukai</reporterName>
+    <creationDate>2020-04-24</creationDate>
+</issueEntity>
+<issueEntity>
+    <summary>Bulk deletion of projects even with zero issues is very slow and decreases performance </summary>
+    <key>JSWSERVER-20465</key>
+    <uri>https://jira.atlassian.com/rest/api/latest/issue/1499097</uri>
+    <type>Bug</type>
+    <priority>Medium</priority>
+    <description>h3. Issue Summary
+
+At times bulk deletion of projects are carried out to clean up the instance and reduce the load on the index. During deletion of the projects, the instance becomes unusable and causes significant performance degrade. Customer analysis shows that this originates from the large number of queries being run in the database individually rather than in batches and very frequently. The time taken for individual query, even though smaller adds up significantly in total, when the database is located remotely.
+
+ !Database_query.png|thumbnail! 
+
+Our Analysis shows that this is because to in the delete command, the code around workflows &amp; workflow schemes doesn’t batch the database calls so well. Moreover, we’re often accessing these workflows through caches—yet we clear the caches partway through the process (before dealing with draft workflows) owing to the fix for JRASERVER-8032
+h3. Steps to Reproduce
+ # Create 200 - 300 test projects with one or more test issues using data generator plugin.
+ # Try deletion of the projects in bulk using a plugin such as REST API or BobSwift CLI, the instance experiences large number of calls to the database contending with other normal user operations.
+
+h3. Expected Results
+
+The project deletion should not cause significant performance degrade.
+
+h3. Actual Results
+
+Project deletion causes the instance to become unusable and causes performance degradation.
+
+h3. Workaround
+
+Currently there is no known workaround for this behavior except to perform the deletion during any available maintenance period if possible.</description>
+    <reporterName>shrivatsaa</reporterName>
+    <creationDate>2020-03-05</creationDate>
+</issueEntity>
